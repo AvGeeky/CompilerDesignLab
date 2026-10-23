@@ -1,0 +1,7 @@
+while (i < n)
+{
+    k = p * q;
+    if (i > 2) e = f + g; else e = 0;
+    for (j = 10; j >= 0; j = j - 2) w = j * 4;
+    i = i + 1;
+}

@@ -1,0 +1,39 @@
+i = 10
+L1: 
+if i > 0
+ goto L2
+goto L3
+L2: 
+t1 = a * 2.5
+x = t1
+t2 = 7 * 8
+y = t2
+t3 = s + i
+s = t3
+t4 = a * 4
+f = t4
+if y > 20
+ goto L4
+goto L5
+L4: 
+t5 = 1 + 2
+d = t5
+j = 10
+L6: 
+if j > 0
+ goto L7
+goto L8
+L7: 
+t6 = s + i
+s = t6
+j = j - 1
+
+
+goto L6
+L8: 
+L5: 
+i = i - 1
+
+
+goto L1
+L3: 
